@@ -1,0 +1,872 @@
+2022-12-14 06:55:13 | [pearl_metaworld_ml1_push] Logging to /home/paulpak/Downloads/off_policy_meta_RL/data/local/experiment/pearl_metaworld_ml1_push_1
+2022-12-14 06:55:18 | [pearl_metaworld_ml1_push] Obtaining samples...
+2022-12-14 06:56:29 | [pearl_metaworld_ml1_push] epoch #0 | Training...
+2022-12-14 06:57:12 | [pearl_metaworld_ml1_push] epoch #0 | Evaluating...
+2022-12-14 06:57:12 | [pearl_metaworld_ml1_push] epoch #0 | Sampling for adapation and meta-testing...
+2022-12-14 07:06:34 | [pearl_metaworld_ml1_push] epoch #0 | Finished meta-testing...
+2022-12-14 07:06:34 | [pearl_metaworld_ml1_push] epoch #0 | Saving snapshot...
+2022-12-14 07:06:34 | [pearl_metaworld_ml1_push] epoch #0 | Saved
+2022-12-14 07:06:34 | [pearl_metaworld_ml1_push] epoch #0 | Time 676.80 s
+2022-12-14 07:06:34 | [pearl_metaworld_ml1_push] epoch #0 | EpochTime 676.80 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn     28.72
+MetaTest/Average/AverageReturn               28.72
+MetaTest/Average/Iteration                    0
+MetaTest/Average/MaxReturn                  215.083
+MetaTest/Average/MinReturn                    9.99461
+MetaTest/Average/NumEpisodes                 50
+MetaTest/Average/StdReturn                   29.448
+MetaTest/Average/SuccessRate                  0
+MetaTest/Average/TerminationRate              0
+MetaTest/push-v2/AverageDiscountedReturn     28.72
+MetaTest/push-v2/AverageReturn               28.72
+MetaTest/push-v2/Iteration                    0
+MetaTest/push-v2/MaxReturn                  215.083
+MetaTest/push-v2/MinReturn                    9.99461
+MetaTest/push-v2/NumEpisodes                 50
+MetaTest/push-v2/StdReturn                   29.448
+MetaTest/push-v2/SuccessRate                  0
+MetaTest/push-v2/TerminationRate              0
+TotalEnvSteps                             40000
+----------------------------------------  -----------
+2022-12-14 07:07:01 | [pearl_metaworld_ml1_push] epoch #1 | Training...
+2022-12-14 07:07:46 | [pearl_metaworld_ml1_push] epoch #1 | Evaluating...
+2022-12-14 07:07:46 | [pearl_metaworld_ml1_push] epoch #1 | Sampling for adapation and meta-testing...
+2022-12-14 07:17:08 | [pearl_metaworld_ml1_push] epoch #1 | Finished meta-testing...
+2022-12-14 07:17:09 | [pearl_metaworld_ml1_push] epoch #1 | Saving snapshot...
+2022-12-14 07:17:09 | [pearl_metaworld_ml1_push] epoch #1 | Saved
+2022-12-14 07:17:09 | [pearl_metaworld_ml1_push] epoch #1 | Time 1311.42 s
+2022-12-14 07:17:09 | [pearl_metaworld_ml1_push] epoch #1 | EpochTime 634.61 s
+----------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn     26.0035
+MetaTest/Average/AverageReturn               26.0035
+MetaTest/Average/Iteration                    1
+MetaTest/Average/MaxReturn                  104.391
+MetaTest/Average/MinReturn                   10.6322
+MetaTest/Average/NumEpisodes                 50
+MetaTest/Average/StdReturn                   15.6245
+MetaTest/Average/SuccessRate                  0
+MetaTest/Average/TerminationRate              0
+MetaTest/push-v2/AverageDiscountedReturn     26.0035
+MetaTest/push-v2/AverageReturn               26.0035
+MetaTest/push-v2/Iteration                    1
+MetaTest/push-v2/MaxReturn                  104.391
+MetaTest/push-v2/MinReturn                   10.6322
+MetaTest/push-v2/NumEpisodes                 50
+MetaTest/push-v2/StdReturn                   15.6245
+MetaTest/push-v2/SuccessRate                  0
+MetaTest/push-v2/TerminationRate              0
+TotalEnvSteps                             55000
+----------------------------------------  ----------
+2022-12-14 07:17:36 | [pearl_metaworld_ml1_push] epoch #2 | Training...
+2022-12-14 07:18:25 | [pearl_metaworld_ml1_push] epoch #2 | Evaluating...
+2022-12-14 07:18:25 | [pearl_metaworld_ml1_push] epoch #2 | Sampling for adapation and meta-testing...
+2022-12-14 07:27:49 | [pearl_metaworld_ml1_push] epoch #2 | Finished meta-testing...
+2022-12-14 07:27:49 | [pearl_metaworld_ml1_push] epoch #2 | Saving snapshot...
+2022-12-14 07:27:49 | [pearl_metaworld_ml1_push] epoch #2 | Saved
+2022-12-14 07:27:49 | [pearl_metaworld_ml1_push] epoch #2 | Time 1951.61 s
+2022-12-14 07:27:49 | [pearl_metaworld_ml1_push] epoch #2 | EpochTime 640.18 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn     23.9174
+MetaTest/Average/AverageReturn               23.9174
+MetaTest/Average/Iteration                    2
+MetaTest/Average/MaxReturn                  166.119
+MetaTest/Average/MinReturn                    8.63883
+MetaTest/Average/NumEpisodes                 50
+MetaTest/Average/StdReturn                   22.6157
+MetaTest/Average/SuccessRate                  0
+MetaTest/Average/TerminationRate              0
+MetaTest/push-v2/AverageDiscountedReturn     23.9174
+MetaTest/push-v2/AverageReturn               23.9174
+MetaTest/push-v2/Iteration                    2
+MetaTest/push-v2/MaxReturn                  166.119
+MetaTest/push-v2/MinReturn                    8.63883
+MetaTest/push-v2/NumEpisodes                 50
+MetaTest/push-v2/StdReturn                   22.6157
+MetaTest/push-v2/SuccessRate                  0
+MetaTest/push-v2/TerminationRate              0
+TotalEnvSteps                             70000
+----------------------------------------  -----------
+2022-12-14 07:28:16 | [pearl_metaworld_ml1_push] epoch #3 | Training...
+2022-12-14 07:29:07 | [pearl_metaworld_ml1_push] epoch #3 | Evaluating...
+2022-12-14 07:29:07 | [pearl_metaworld_ml1_push] epoch #3 | Sampling for adapation and meta-testing...
+2022-12-14 07:38:40 | [pearl_metaworld_ml1_push] epoch #3 | Finished meta-testing...
+2022-12-14 07:38:41 | [pearl_metaworld_ml1_push] epoch #3 | Saving snapshot...
+2022-12-14 07:38:42 | [pearl_metaworld_ml1_push] epoch #3 | Saved
+2022-12-14 07:38:42 | [pearl_metaworld_ml1_push] epoch #3 | Time 2604.00 s
+2022-12-14 07:38:42 | [pearl_metaworld_ml1_push] epoch #3 | EpochTime 652.39 s
+----------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn     33.534
+MetaTest/Average/AverageReturn               33.534
+MetaTest/Average/Iteration                    3
+MetaTest/Average/MaxReturn                  201.577
+MetaTest/Average/MinReturn                   10.284
+MetaTest/Average/NumEpisodes                 50
+MetaTest/Average/StdReturn                   35.0903
+MetaTest/Average/SuccessRate                  0
+MetaTest/Average/TerminationRate              0
+MetaTest/push-v2/AverageDiscountedReturn     33.534
+MetaTest/push-v2/AverageReturn               33.534
+MetaTest/push-v2/Iteration                    3
+MetaTest/push-v2/MaxReturn                  201.577
+MetaTest/push-v2/MinReturn                   10.284
+MetaTest/push-v2/NumEpisodes                 50
+MetaTest/push-v2/StdReturn                   35.0903
+MetaTest/push-v2/SuccessRate                  0
+MetaTest/push-v2/TerminationRate              0
+TotalEnvSteps                             85000
+----------------------------------------  ----------
+2022-12-14 07:39:09 | [pearl_metaworld_ml1_push] epoch #4 | Training...
+2022-12-14 07:40:01 | [pearl_metaworld_ml1_push] epoch #4 | Evaluating...
+2022-12-14 07:40:01 | [pearl_metaworld_ml1_push] epoch #4 | Sampling for adapation and meta-testing...
+2022-12-14 07:49:22 | [pearl_metaworld_ml1_push] epoch #4 | Finished meta-testing...
+2022-12-14 07:49:22 | [pearl_metaworld_ml1_push] epoch #4 | Saving snapshot...
+2022-12-14 07:49:22 | [pearl_metaworld_ml1_push] epoch #4 | Saved
+2022-12-14 07:49:22 | [pearl_metaworld_ml1_push] epoch #4 | Time 3244.86 s
+2022-12-14 07:49:22 | [pearl_metaworld_ml1_push] epoch #4 | EpochTime 640.85 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      24.6614
+MetaTest/Average/AverageReturn                24.6614
+MetaTest/Average/Iteration                     4
+MetaTest/Average/MaxReturn                    87.3882
+MetaTest/Average/MinReturn                    10.7506
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    12.2776
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      24.6614
+MetaTest/push-v2/AverageReturn                24.6614
+MetaTest/push-v2/Iteration                     4
+MetaTest/push-v2/MaxReturn                    87.3882
+MetaTest/push-v2/MinReturn                    10.7506
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    12.2776
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             100000
+----------------------------------------  -----------
+2022-12-14 07:49:50 | [pearl_metaworld_ml1_push] epoch #5 | Training...
+2022-12-14 07:50:38 | [pearl_metaworld_ml1_push] epoch #5 | Evaluating...
+2022-12-14 07:50:38 | [pearl_metaworld_ml1_push] epoch #5 | Sampling for adapation and meta-testing...
+2022-12-14 08:00:06 | [pearl_metaworld_ml1_push] epoch #5 | Finished meta-testing...
+2022-12-14 08:00:07 | [pearl_metaworld_ml1_push] epoch #5 | Saving snapshot...
+2022-12-14 08:00:07 | [pearl_metaworld_ml1_push] epoch #5 | Saved
+2022-12-14 08:00:07 | [pearl_metaworld_ml1_push] epoch #5 | Time 3889.38 s
+2022-12-14 08:00:07 | [pearl_metaworld_ml1_push] epoch #5 | EpochTime 644.51 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      33.5002
+MetaTest/Average/AverageReturn                33.5002
+MetaTest/Average/Iteration                     5
+MetaTest/Average/MaxReturn                   134.8
+MetaTest/Average/MinReturn                    15.2832
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    23.1784
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      33.5002
+MetaTest/push-v2/AverageReturn                33.5002
+MetaTest/push-v2/Iteration                     5
+MetaTest/push-v2/MaxReturn                   134.8
+MetaTest/push-v2/MinReturn                    15.2832
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    23.1784
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             115000
+----------------------------------------  -----------
+2022-12-14 08:00:34 | [pearl_metaworld_ml1_push] epoch #6 | Training...
+2022-12-14 08:01:20 | [pearl_metaworld_ml1_push] epoch #6 | Evaluating...
+2022-12-14 08:01:20 | [pearl_metaworld_ml1_push] epoch #6 | Sampling for adapation and meta-testing...
+2022-12-14 08:10:41 | [pearl_metaworld_ml1_push] epoch #6 | Finished meta-testing...
+2022-12-14 08:10:41 | [pearl_metaworld_ml1_push] epoch #6 | Saving snapshot...
+2022-12-14 08:10:41 | [pearl_metaworld_ml1_push] epoch #6 | Saved
+2022-12-14 08:10:41 | [pearl_metaworld_ml1_push] epoch #6 | Time 4523.88 s
+2022-12-14 08:10:41 | [pearl_metaworld_ml1_push] epoch #6 | EpochTime 634.50 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      24.7912
+MetaTest/Average/AverageReturn                24.7912
+MetaTest/Average/Iteration                     6
+MetaTest/Average/MaxReturn                   128.583
+MetaTest/Average/MinReturn                     8.44505
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    17.3447
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      24.7912
+MetaTest/push-v2/AverageReturn                24.7912
+MetaTest/push-v2/Iteration                     6
+MetaTest/push-v2/MaxReturn                   128.583
+MetaTest/push-v2/MinReturn                     8.44505
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    17.3447
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             130000
+----------------------------------------  ------------
+2022-12-14 08:11:09 | [pearl_metaworld_ml1_push] epoch #7 | Training...
+2022-12-14 08:11:59 | [pearl_metaworld_ml1_push] epoch #7 | Evaluating...
+2022-12-14 08:11:59 | [pearl_metaworld_ml1_push] epoch #7 | Sampling for adapation and meta-testing...
+2022-12-14 08:21:23 | [pearl_metaworld_ml1_push] epoch #7 | Finished meta-testing...
+2022-12-14 08:21:23 | [pearl_metaworld_ml1_push] epoch #7 | Saving snapshot...
+2022-12-14 08:21:24 | [pearl_metaworld_ml1_push] epoch #7 | Saved
+2022-12-14 08:21:24 | [pearl_metaworld_ml1_push] epoch #7 | Time 5166.37 s
+2022-12-14 08:21:24 | [pearl_metaworld_ml1_push] epoch #7 | EpochTime 642.48 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      26.2477
+MetaTest/Average/AverageReturn                26.2477
+MetaTest/Average/Iteration                     7
+MetaTest/Average/MaxReturn                   172.18
+MetaTest/Average/MinReturn                     9.64193
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    23.5662
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      26.2477
+MetaTest/push-v2/AverageReturn                26.2477
+MetaTest/push-v2/Iteration                     7
+MetaTest/push-v2/MaxReturn                   172.18
+MetaTest/push-v2/MinReturn                     9.64193
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    23.5662
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             145000
+----------------------------------------  ------------
+2022-12-14 08:21:51 | [pearl_metaworld_ml1_push] epoch #8 | Training...
+2022-12-14 08:22:42 | [pearl_metaworld_ml1_push] epoch #8 | Evaluating...
+2022-12-14 08:22:42 | [pearl_metaworld_ml1_push] epoch #8 | Sampling for adapation and meta-testing...
+2022-12-14 08:32:06 | [pearl_metaworld_ml1_push] epoch #8 | Finished meta-testing...
+2022-12-14 08:32:06 | [pearl_metaworld_ml1_push] epoch #8 | Saving snapshot...
+2022-12-14 08:32:06 | [pearl_metaworld_ml1_push] epoch #8 | Saved
+2022-12-14 08:32:06 | [pearl_metaworld_ml1_push] epoch #8 | Time 5808.43 s
+2022-12-14 08:32:06 | [pearl_metaworld_ml1_push] epoch #8 | EpochTime 642.06 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      29.914
+MetaTest/Average/AverageReturn                29.914
+MetaTest/Average/Iteration                     8
+MetaTest/Average/MaxReturn                   125.474
+MetaTest/Average/MinReturn                     8.0333
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    25.7175
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      29.914
+MetaTest/push-v2/AverageReturn                29.914
+MetaTest/push-v2/Iteration                     8
+MetaTest/push-v2/MaxReturn                   125.474
+MetaTest/push-v2/MinReturn                     8.0333
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    25.7175
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             160000
+----------------------------------------  -----------
+2022-12-14 08:32:33 | [pearl_metaworld_ml1_push] epoch #9 | Training...
+2022-12-14 08:33:20 | [pearl_metaworld_ml1_push] epoch #9 | Evaluating...
+2022-12-14 08:33:20 | [pearl_metaworld_ml1_push] epoch #9 | Sampling for adapation and meta-testing...
+2022-12-14 08:42:53 | [pearl_metaworld_ml1_push] epoch #9 | Finished meta-testing...
+2022-12-14 08:42:53 | [pearl_metaworld_ml1_push] epoch #9 | Saving snapshot...
+2022-12-14 08:42:53 | [pearl_metaworld_ml1_push] epoch #9 | Saved
+2022-12-14 08:42:53 | [pearl_metaworld_ml1_push] epoch #9 | Time 6455.42 s
+2022-12-14 08:42:53 | [pearl_metaworld_ml1_push] epoch #9 | EpochTime 646.98 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      23.0262
+MetaTest/Average/AverageReturn                23.0262
+MetaTest/Average/Iteration                     9
+MetaTest/Average/MaxReturn                    68.68
+MetaTest/Average/MinReturn                    11.3278
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                     9.28558
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      23.0262
+MetaTest/push-v2/AverageReturn                23.0262
+MetaTest/push-v2/Iteration                     9
+MetaTest/push-v2/MaxReturn                    68.68
+MetaTest/push-v2/MinReturn                    11.3278
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                     9.28558
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             175000
+----------------------------------------  ------------
+2022-12-14 08:43:22 | [pearl_metaworld_ml1_push] epoch #10 | Training...
+2022-12-14 08:44:11 | [pearl_metaworld_ml1_push] epoch #10 | Evaluating...
+2022-12-14 08:44:11 | [pearl_metaworld_ml1_push] epoch #10 | Sampling for adapation and meta-testing...
+2022-12-14 08:54:28 | [pearl_metaworld_ml1_push] epoch #10 | Finished meta-testing...
+2022-12-14 08:54:28 | [pearl_metaworld_ml1_push] epoch #10 | Saving snapshot...
+2022-12-14 08:54:28 | [pearl_metaworld_ml1_push] epoch #10 | Saved
+2022-12-14 08:54:28 | [pearl_metaworld_ml1_push] epoch #10 | Time 7150.90 s
+2022-12-14 08:54:28 | [pearl_metaworld_ml1_push] epoch #10 | EpochTime 695.47 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      30.6208
+MetaTest/Average/AverageReturn                30.6208
+MetaTest/Average/Iteration                    10
+MetaTest/Average/MaxReturn                   219.076
+MetaTest/Average/MinReturn                     8.03243
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    37.1605
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      30.6208
+MetaTest/push-v2/AverageReturn                30.6208
+MetaTest/push-v2/Iteration                    10
+MetaTest/push-v2/MaxReturn                   219.076
+MetaTest/push-v2/MinReturn                     8.03243
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    37.1605
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             190000
+----------------------------------------  ------------
+2022-12-14 08:54:56 | [pearl_metaworld_ml1_push] epoch #11 | Training...
+2022-12-14 08:55:45 | [pearl_metaworld_ml1_push] epoch #11 | Evaluating...
+2022-12-14 08:55:45 | [pearl_metaworld_ml1_push] epoch #11 | Sampling for adapation and meta-testing...
+2022-12-14 09:05:08 | [pearl_metaworld_ml1_push] epoch #11 | Finished meta-testing...
+2022-12-14 09:05:08 | [pearl_metaworld_ml1_push] epoch #11 | Saving snapshot...
+2022-12-14 09:05:08 | [pearl_metaworld_ml1_push] epoch #11 | Saved
+2022-12-14 09:05:08 | [pearl_metaworld_ml1_push] epoch #11 | Time 7790.42 s
+2022-12-14 09:05:08 | [pearl_metaworld_ml1_push] epoch #11 | EpochTime 639.52 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      25.7491
+MetaTest/Average/AverageReturn                25.7491
+MetaTest/Average/Iteration                    11
+MetaTest/Average/MaxReturn                    81.2103
+MetaTest/Average/MinReturn                     9.03076
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    13.5061
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      25.7491
+MetaTest/push-v2/AverageReturn                25.7491
+MetaTest/push-v2/Iteration                    11
+MetaTest/push-v2/MaxReturn                    81.2103
+MetaTest/push-v2/MinReturn                     9.03076
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    13.5061
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             205000
+----------------------------------------  ------------
+2022-12-14 09:05:35 | [pearl_metaworld_ml1_push] epoch #12 | Training...
+2022-12-14 09:06:22 | [pearl_metaworld_ml1_push] epoch #12 | Evaluating...
+2022-12-14 09:06:22 | [pearl_metaworld_ml1_push] epoch #12 | Sampling for adapation and meta-testing...
+2022-12-14 09:18:30 | [pearl_metaworld_ml1_push] epoch #12 | Finished meta-testing...
+2022-12-14 09:18:30 | [pearl_metaworld_ml1_push] epoch #12 | Saving snapshot...
+2022-12-14 09:18:30 | [pearl_metaworld_ml1_push] epoch #12 | Saved
+2022-12-14 09:18:30 | [pearl_metaworld_ml1_push] epoch #12 | Time 8592.58 s
+2022-12-14 09:18:30 | [pearl_metaworld_ml1_push] epoch #12 | EpochTime 802.16 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      34.1259
+MetaTest/Average/AverageReturn                34.1259
+MetaTest/Average/Iteration                    12
+MetaTest/Average/MaxReturn                   410.94
+MetaTest/Average/MinReturn                    11.7389
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    54.7913
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      34.1259
+MetaTest/push-v2/AverageReturn                34.1259
+MetaTest/push-v2/Iteration                    12
+MetaTest/push-v2/MaxReturn                   410.94
+MetaTest/push-v2/MinReturn                    11.7389
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    54.7913
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             220000
+----------------------------------------  -----------
+2022-12-14 09:19:10 | [pearl_metaworld_ml1_push] epoch #13 | Training...
+2022-12-14 09:19:58 | [pearl_metaworld_ml1_push] epoch #13 | Evaluating...
+2022-12-14 09:19:58 | [pearl_metaworld_ml1_push] epoch #13 | Sampling for adapation and meta-testing...
+2022-12-14 09:34:18 | [pearl_metaworld_ml1_push] epoch #13 | Finished meta-testing...
+2022-12-14 09:34:18 | [pearl_metaworld_ml1_push] epoch #13 | Saving snapshot...
+2022-12-14 09:34:18 | [pearl_metaworld_ml1_push] epoch #13 | Saved
+2022-12-14 09:34:18 | [pearl_metaworld_ml1_push] epoch #13 | Time 9540.84 s
+2022-12-14 09:34:18 | [pearl_metaworld_ml1_push] epoch #13 | EpochTime 948.25 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      26.6138
+MetaTest/Average/AverageReturn                26.6138
+MetaTest/Average/Iteration                    13
+MetaTest/Average/MaxReturn                   101.716
+MetaTest/Average/MinReturn                    11.5881
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    18.3304
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      26.6138
+MetaTest/push-v2/AverageReturn                26.6138
+MetaTest/push-v2/Iteration                    13
+MetaTest/push-v2/MaxReturn                   101.716
+MetaTest/push-v2/MinReturn                    11.5881
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    18.3304
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             235000
+----------------------------------------  -----------
+2022-12-14 09:34:46 | [pearl_metaworld_ml1_push] epoch #14 | Training...
+2022-12-14 09:35:34 | [pearl_metaworld_ml1_push] epoch #14 | Evaluating...
+2022-12-14 09:35:34 | [pearl_metaworld_ml1_push] epoch #14 | Sampling for adapation and meta-testing...
+2022-12-14 09:50:20 | [pearl_metaworld_ml1_push] epoch #14 | Finished meta-testing...
+2022-12-14 09:50:20 | [pearl_metaworld_ml1_push] epoch #14 | Saving snapshot...
+2022-12-14 09:50:20 | [pearl_metaworld_ml1_push] epoch #14 | Saved
+2022-12-14 09:50:20 | [pearl_metaworld_ml1_push] epoch #14 | Time 10502.84 s
+2022-12-14 09:50:20 | [pearl_metaworld_ml1_push] epoch #14 | EpochTime 961.99 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      23.0545
+MetaTest/Average/AverageReturn                23.0545
+MetaTest/Average/Iteration                    14
+MetaTest/Average/MaxReturn                    58.4002
+MetaTest/Average/MinReturn                     8.65891
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    10.3943
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      23.0545
+MetaTest/push-v2/AverageReturn                23.0545
+MetaTest/push-v2/Iteration                    14
+MetaTest/push-v2/MaxReturn                    58.4002
+MetaTest/push-v2/MinReturn                     8.65891
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    10.3943
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             250000
+----------------------------------------  ------------
+2022-12-14 09:50:59 | [pearl_metaworld_ml1_push] epoch #15 | Training...
+2022-12-14 09:51:48 | [pearl_metaworld_ml1_push] epoch #15 | Evaluating...
+2022-12-14 09:51:48 | [pearl_metaworld_ml1_push] epoch #15 | Sampling for adapation and meta-testing...
+2022-12-14 10:06:32 | [pearl_metaworld_ml1_push] epoch #15 | Finished meta-testing...
+2022-12-14 10:06:32 | [pearl_metaworld_ml1_push] epoch #15 | Saving snapshot...
+2022-12-14 10:06:32 | [pearl_metaworld_ml1_push] epoch #15 | Saved
+2022-12-14 10:06:32 | [pearl_metaworld_ml1_push] epoch #15 | Time 11474.64 s
+2022-12-14 10:06:32 | [pearl_metaworld_ml1_push] epoch #15 | EpochTime 971.80 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      34.4155
+MetaTest/Average/AverageReturn                34.4155
+MetaTest/Average/Iteration                    15
+MetaTest/Average/MaxReturn                   122.798
+MetaTest/Average/MinReturn                    12.5166
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    21.8596
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      34.4155
+MetaTest/push-v2/AverageReturn                34.4155
+MetaTest/push-v2/Iteration                    15
+MetaTest/push-v2/MaxReturn                   122.798
+MetaTest/push-v2/MinReturn                    12.5166
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    21.8596
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             265000
+----------------------------------------  -----------
+2022-12-14 10:07:11 | [pearl_metaworld_ml1_push] epoch #16 | Training...
+2022-12-14 10:07:58 | [pearl_metaworld_ml1_push] epoch #16 | Evaluating...
+2022-12-14 10:07:58 | [pearl_metaworld_ml1_push] epoch #16 | Sampling for adapation and meta-testing...
+2022-12-14 10:20:47 | [pearl_metaworld_ml1_push] epoch #16 | Finished meta-testing...
+2022-12-14 10:20:47 | [pearl_metaworld_ml1_push] epoch #16 | Saving snapshot...
+2022-12-14 10:20:47 | [pearl_metaworld_ml1_push] epoch #16 | Saved
+2022-12-14 10:20:47 | [pearl_metaworld_ml1_push] epoch #16 | Time 12329.75 s
+2022-12-14 10:20:47 | [pearl_metaworld_ml1_push] epoch #16 | EpochTime 855.10 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      26.6584
+MetaTest/Average/AverageReturn                26.6584
+MetaTest/Average/Iteration                    16
+MetaTest/Average/MaxReturn                   147.603
+MetaTest/Average/MinReturn                    10.0839
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    20.4804
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      26.6584
+MetaTest/push-v2/AverageReturn                26.6584
+MetaTest/push-v2/Iteration                    16
+MetaTest/push-v2/MaxReturn                   147.603
+MetaTest/push-v2/MinReturn                    10.0839
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    20.4804
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             280000
+----------------------------------------  -----------
+2022-12-14 10:21:15 | [pearl_metaworld_ml1_push] epoch #17 | Training...
+2022-12-14 10:22:03 | [pearl_metaworld_ml1_push] epoch #17 | Evaluating...
+2022-12-14 10:22:03 | [pearl_metaworld_ml1_push] epoch #17 | Sampling for adapation and meta-testing...
+2022-12-14 10:36:47 | [pearl_metaworld_ml1_push] epoch #17 | Finished meta-testing...
+2022-12-14 10:36:47 | [pearl_metaworld_ml1_push] epoch #17 | Saving snapshot...
+2022-12-14 10:36:47 | [pearl_metaworld_ml1_push] epoch #17 | Saved
+2022-12-14 10:36:47 | [pearl_metaworld_ml1_push] epoch #17 | Time 13289.93 s
+2022-12-14 10:36:47 | [pearl_metaworld_ml1_push] epoch #17 | EpochTime 960.17 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      23.851
+MetaTest/Average/AverageReturn                23.851
+MetaTest/Average/Iteration                    17
+MetaTest/Average/MaxReturn                    63.958
+MetaTest/Average/MinReturn                     9.75722
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    10.8537
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      23.851
+MetaTest/push-v2/AverageReturn                23.851
+MetaTest/push-v2/Iteration                    17
+MetaTest/push-v2/MaxReturn                    63.958
+MetaTest/push-v2/MinReturn                     9.75722
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    10.8537
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             295000
+----------------------------------------  ------------
+2022-12-14 10:37:26 | [pearl_metaworld_ml1_push] epoch #18 | Training...
+2022-12-14 10:38:15 | [pearl_metaworld_ml1_push] epoch #18 | Evaluating...
+2022-12-14 10:38:15 | [pearl_metaworld_ml1_push] epoch #18 | Sampling for adapation and meta-testing...
+2022-12-14 10:52:59 | [pearl_metaworld_ml1_push] epoch #18 | Finished meta-testing...
+2022-12-14 10:52:59 | [pearl_metaworld_ml1_push] epoch #18 | Saving snapshot...
+2022-12-14 10:52:59 | [pearl_metaworld_ml1_push] epoch #18 | Saved
+2022-12-14 10:52:59 | [pearl_metaworld_ml1_push] epoch #18 | Time 14261.47 s
+2022-12-14 10:52:59 | [pearl_metaworld_ml1_push] epoch #18 | EpochTime 971.54 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      22.6816
+MetaTest/Average/AverageReturn                22.6816
+MetaTest/Average/Iteration                    18
+MetaTest/Average/MaxReturn                    44.305
+MetaTest/Average/MinReturn                     8.59258
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                     8.6314
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      22.6816
+MetaTest/push-v2/AverageReturn                22.6816
+MetaTest/push-v2/Iteration                    18
+MetaTest/push-v2/MaxReturn                    44.305
+MetaTest/push-v2/MinReturn                     8.59258
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                     8.6314
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             310000
+----------------------------------------  ------------
+2022-12-14 10:53:39 | [pearl_metaworld_ml1_push] epoch #19 | Training...
+2022-12-14 10:54:27 | [pearl_metaworld_ml1_push] epoch #19 | Evaluating...
+2022-12-14 10:54:27 | [pearl_metaworld_ml1_push] epoch #19 | Sampling for adapation and meta-testing...
+2022-12-14 11:09:13 | [pearl_metaworld_ml1_push] epoch #19 | Finished meta-testing...
+2022-12-14 11:09:13 | [pearl_metaworld_ml1_push] epoch #19 | Saving snapshot...
+2022-12-14 11:09:13 | [pearl_metaworld_ml1_push] epoch #19 | Saved
+2022-12-14 11:09:13 | [pearl_metaworld_ml1_push] epoch #19 | Time 15235.24 s
+2022-12-14 11:09:13 | [pearl_metaworld_ml1_push] epoch #19 | EpochTime 973.77 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      34.0197
+MetaTest/Average/AverageReturn                34.0197
+MetaTest/Average/Iteration                    19
+MetaTest/Average/MaxReturn                   201.119
+MetaTest/Average/MinReturn                     7.12372
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    31.3123
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      34.0197
+MetaTest/push-v2/AverageReturn                34.0197
+MetaTest/push-v2/Iteration                    19
+MetaTest/push-v2/MaxReturn                   201.119
+MetaTest/push-v2/MinReturn                     7.12372
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    31.3123
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             325000
+----------------------------------------  ------------
+2022-12-14 11:09:52 | [pearl_metaworld_ml1_push] epoch #20 | Training...
+2022-12-14 11:10:40 | [pearl_metaworld_ml1_push] epoch #20 | Evaluating...
+2022-12-14 11:10:40 | [pearl_metaworld_ml1_push] epoch #20 | Sampling for adapation and meta-testing...
+2022-12-14 11:25:23 | [pearl_metaworld_ml1_push] epoch #20 | Finished meta-testing...
+2022-12-14 11:25:24 | [pearl_metaworld_ml1_push] epoch #20 | Saving snapshot...
+2022-12-14 11:25:24 | [pearl_metaworld_ml1_push] epoch #20 | Saved
+2022-12-14 11:25:24 | [pearl_metaworld_ml1_push] epoch #20 | Time 16206.20 s
+2022-12-14 11:25:24 | [pearl_metaworld_ml1_push] epoch #20 | EpochTime 970.96 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      35.9681
+MetaTest/Average/AverageReturn                35.9681
+MetaTest/Average/Iteration                    20
+MetaTest/Average/MaxReturn                   337.823
+MetaTest/Average/MinReturn                    11.376
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    48.9866
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      35.9681
+MetaTest/push-v2/AverageReturn                35.9681
+MetaTest/push-v2/Iteration                    20
+MetaTest/push-v2/MaxReturn                   337.823
+MetaTest/push-v2/MinReturn                    11.376
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    48.9866
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             340000
+----------------------------------------  -----------
+2022-12-14 11:26:02 | [pearl_metaworld_ml1_push] epoch #21 | Training...
+2022-12-14 11:26:50 | [pearl_metaworld_ml1_push] epoch #21 | Evaluating...
+2022-12-14 11:26:50 | [pearl_metaworld_ml1_push] epoch #21 | Sampling for adapation and meta-testing...
+2022-12-14 11:41:35 | [pearl_metaworld_ml1_push] epoch #21 | Finished meta-testing...
+2022-12-14 11:41:35 | [pearl_metaworld_ml1_push] epoch #21 | Saving snapshot...
+2022-12-14 11:41:35 | [pearl_metaworld_ml1_push] epoch #21 | Saved
+2022-12-14 11:41:35 | [pearl_metaworld_ml1_push] epoch #21 | Time 17177.68 s
+2022-12-14 11:41:35 | [pearl_metaworld_ml1_push] epoch #21 | EpochTime 971.48 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      32.8767
+MetaTest/Average/AverageReturn                32.8767
+MetaTest/Average/Iteration                    21
+MetaTest/Average/MaxReturn                   128.651
+MetaTest/Average/MinReturn                     9.46764
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    23.1892
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      32.8767
+MetaTest/push-v2/AverageReturn                32.8767
+MetaTest/push-v2/Iteration                    21
+MetaTest/push-v2/MaxReturn                   128.651
+MetaTest/push-v2/MinReturn                     9.46764
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    23.1892
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             355000
+----------------------------------------  ------------
+2022-12-14 11:42:14 | [pearl_metaworld_ml1_push] epoch #22 | Training...
+2022-12-14 11:43:01 | [pearl_metaworld_ml1_push] epoch #22 | Evaluating...
+2022-12-14 11:43:01 | [pearl_metaworld_ml1_push] epoch #22 | Sampling for adapation and meta-testing...
+2022-12-14 11:57:41 | [pearl_metaworld_ml1_push] epoch #22 | Finished meta-testing...
+2022-12-14 11:57:41 | [pearl_metaworld_ml1_push] epoch #22 | Saving snapshot...
+2022-12-14 11:57:41 | [pearl_metaworld_ml1_push] epoch #22 | Saved
+2022-12-14 11:57:41 | [pearl_metaworld_ml1_push] epoch #22 | Time 18143.77 s
+2022-12-14 11:57:41 | [pearl_metaworld_ml1_push] epoch #22 | EpochTime 966.09 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      30.4579
+MetaTest/Average/AverageReturn                30.4579
+MetaTest/Average/Iteration                    22
+MetaTest/Average/MaxReturn                   209.473
+MetaTest/Average/MinReturn                     9.69954
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    30.3619
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      30.4579
+MetaTest/push-v2/AverageReturn                30.4579
+MetaTest/push-v2/Iteration                    22
+MetaTest/push-v2/MaxReturn                   209.473
+MetaTest/push-v2/MinReturn                     9.69954
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    30.3619
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             370000
+----------------------------------------  ------------
+2022-12-14 11:58:20 | [pearl_metaworld_ml1_push] epoch #23 | Training...
+2022-12-14 11:59:08 | [pearl_metaworld_ml1_push] epoch #23 | Evaluating...
+2022-12-14 11:59:08 | [pearl_metaworld_ml1_push] epoch #23 | Sampling for adapation and meta-testing...
+2022-12-14 12:14:04 | [pearl_metaworld_ml1_push] epoch #23 | Finished meta-testing...
+2022-12-14 12:14:04 | [pearl_metaworld_ml1_push] epoch #23 | Saving snapshot...
+2022-12-14 12:14:04 | [pearl_metaworld_ml1_push] epoch #23 | Saved
+2022-12-14 12:14:04 | [pearl_metaworld_ml1_push] epoch #23 | Time 19126.57 s
+2022-12-14 12:14:04 | [pearl_metaworld_ml1_push] epoch #23 | EpochTime 982.79 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      28.647
+MetaTest/Average/AverageReturn                28.647
+MetaTest/Average/Iteration                    23
+MetaTest/Average/MaxReturn                   170.883
+MetaTest/Average/MinReturn                     9.99696
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    24.7593
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      28.647
+MetaTest/push-v2/AverageReturn                28.647
+MetaTest/push-v2/Iteration                    23
+MetaTest/push-v2/MaxReturn                   170.883
+MetaTest/push-v2/MinReturn                     9.99696
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    24.7593
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             385000
+----------------------------------------  ------------
+2022-12-14 12:14:44 | [pearl_metaworld_ml1_push] epoch #24 | Training...
+2022-12-14 12:15:31 | [pearl_metaworld_ml1_push] epoch #24 | Evaluating...
+2022-12-14 12:15:31 | [pearl_metaworld_ml1_push] epoch #24 | Sampling for adapation and meta-testing...
+2022-12-14 12:30:17 | [pearl_metaworld_ml1_push] epoch #24 | Finished meta-testing...
+2022-12-14 12:30:17 | [pearl_metaworld_ml1_push] epoch #24 | Saving snapshot...
+2022-12-14 12:30:17 | [pearl_metaworld_ml1_push] epoch #24 | Saved
+2022-12-14 12:30:17 | [pearl_metaworld_ml1_push] epoch #24 | Time 20099.80 s
+2022-12-14 12:30:17 | [pearl_metaworld_ml1_push] epoch #24 | EpochTime 973.23 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      24.4632
+MetaTest/Average/AverageReturn                24.4632
+MetaTest/Average/Iteration                    24
+MetaTest/Average/MaxReturn                    83.7504
+MetaTest/Average/MinReturn                    12.1186
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    11.9666
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      24.4632
+MetaTest/push-v2/AverageReturn                24.4632
+MetaTest/push-v2/Iteration                    24
+MetaTest/push-v2/MaxReturn                    83.7504
+MetaTest/push-v2/MinReturn                    12.1186
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    11.9666
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             400000
+----------------------------------------  -----------
+2022-12-14 12:30:56 | [pearl_metaworld_ml1_push] epoch #25 | Training...
+2022-12-14 12:31:44 | [pearl_metaworld_ml1_push] epoch #25 | Evaluating...
+2022-12-14 12:31:44 | [pearl_metaworld_ml1_push] epoch #25 | Sampling for adapation and meta-testing...
+2022-12-14 12:46:29 | [pearl_metaworld_ml1_push] epoch #25 | Finished meta-testing...
+2022-12-14 12:46:29 | [pearl_metaworld_ml1_push] epoch #25 | Saving snapshot...
+2022-12-14 12:46:29 | [pearl_metaworld_ml1_push] epoch #25 | Saved
+2022-12-14 12:46:29 | [pearl_metaworld_ml1_push] epoch #25 | Time 21071.46 s
+2022-12-14 12:46:29 | [pearl_metaworld_ml1_push] epoch #25 | EpochTime 971.65 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      38.572
+MetaTest/Average/AverageReturn                38.572
+MetaTest/Average/Iteration                    25
+MetaTest/Average/MaxReturn                   355.215
+MetaTest/Average/MinReturn                     8.46138
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    49.1835
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      38.572
+MetaTest/push-v2/AverageReturn                38.572
+MetaTest/push-v2/Iteration                    25
+MetaTest/push-v2/MaxReturn                   355.215
+MetaTest/push-v2/MinReturn                     8.46138
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    49.1835
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             415000
+----------------------------------------  ------------
+2022-12-14 12:47:08 | [pearl_metaworld_ml1_push] epoch #26 | Training...
+2022-12-14 12:47:54 | [pearl_metaworld_ml1_push] epoch #26 | Evaluating...
+2022-12-14 12:47:54 | [pearl_metaworld_ml1_push] epoch #26 | Sampling for adapation and meta-testing...
+2022-12-14 13:02:39 | [pearl_metaworld_ml1_push] epoch #26 | Finished meta-testing...
+2022-12-14 13:02:39 | [pearl_metaworld_ml1_push] epoch #26 | Saving snapshot...
+2022-12-14 13:02:40 | [pearl_metaworld_ml1_push] epoch #26 | Saved
+2022-12-14 13:02:40 | [pearl_metaworld_ml1_push] epoch #26 | Time 22042.09 s
+2022-12-14 13:02:40 | [pearl_metaworld_ml1_push] epoch #26 | EpochTime 970.63 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      47.9317
+MetaTest/Average/AverageReturn                47.9317
+MetaTest/Average/Iteration                    26
+MetaTest/Average/MaxReturn                   316.152
+MetaTest/Average/MinReturn                     8.24099
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    60.5182
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      47.9317
+MetaTest/push-v2/AverageReturn                47.9317
+MetaTest/push-v2/Iteration                    26
+MetaTest/push-v2/MaxReturn                   316.152
+MetaTest/push-v2/MinReturn                     8.24099
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    60.5182
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             430000
+----------------------------------------  ------------
+2022-12-14 13:03:20 | [pearl_metaworld_ml1_push] epoch #27 | Training...
+2022-12-14 13:04:08 | [pearl_metaworld_ml1_push] epoch #27 | Evaluating...
+2022-12-14 13:04:08 | [pearl_metaworld_ml1_push] epoch #27 | Sampling for adapation and meta-testing...
+2022-12-14 13:18:56 | [pearl_metaworld_ml1_push] epoch #27 | Finished meta-testing...
+2022-12-14 13:18:56 | [pearl_metaworld_ml1_push] epoch #27 | Saving snapshot...
+2022-12-14 13:18:56 | [pearl_metaworld_ml1_push] epoch #27 | Saved
+2022-12-14 13:18:56 | [pearl_metaworld_ml1_push] epoch #27 | Time 23018.36 s
+2022-12-14 13:18:56 | [pearl_metaworld_ml1_push] epoch #27 | EpochTime 976.27 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      44.721
+MetaTest/Average/AverageReturn                44.721
+MetaTest/Average/Iteration                    27
+MetaTest/Average/MaxReturn                   564.561
+MetaTest/Average/MinReturn                    13.0082
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    78.388
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      44.721
+MetaTest/push-v2/AverageReturn                44.721
+MetaTest/push-v2/Iteration                    27
+MetaTest/push-v2/MaxReturn                   564.561
+MetaTest/push-v2/MinReturn                    13.0082
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    78.388
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             445000
+----------------------------------------  -----------
+2022-12-14 13:19:35 | [pearl_metaworld_ml1_push] epoch #28 | Training...
+2022-12-14 13:20:22 | [pearl_metaworld_ml1_push] epoch #28 | Evaluating...
+2022-12-14 13:20:22 | [pearl_metaworld_ml1_push] epoch #28 | Sampling for adapation and meta-testing...
+2022-12-14 13:35:09 | [pearl_metaworld_ml1_push] epoch #28 | Finished meta-testing...
+2022-12-14 13:35:09 | [pearl_metaworld_ml1_push] epoch #28 | Saving snapshot...
+2022-12-14 13:35:09 | [pearl_metaworld_ml1_push] epoch #28 | Saved
+2022-12-14 13:35:09 | [pearl_metaworld_ml1_push] epoch #28 | Time 23991.68 s
+2022-12-14 13:35:09 | [pearl_metaworld_ml1_push] epoch #28 | EpochTime 973.31 s
+----------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn      35.5655
+MetaTest/Average/AverageReturn                35.5655
+MetaTest/Average/Iteration                    28
+MetaTest/Average/MaxReturn                    93.3775
+MetaTest/Average/MinReturn                    10.3248
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    19.761
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      35.5655
+MetaTest/push-v2/AverageReturn                35.5655
+MetaTest/push-v2/Iteration                    28
+MetaTest/push-v2/MaxReturn                    93.3775
+MetaTest/push-v2/MinReturn                    10.3248
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    19.761
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             460000
+----------------------------------------  -----------
+2022-12-14 13:35:48 | [pearl_metaworld_ml1_push] epoch #29 | Training...
+2022-12-14 13:36:37 | [pearl_metaworld_ml1_push] epoch #29 | Evaluating...
+2022-12-14 13:36:37 | [pearl_metaworld_ml1_push] epoch #29 | Sampling for adapation and meta-testing...
+2022-12-14 13:51:25 | [pearl_metaworld_ml1_push] epoch #29 | Finished meta-testing...
+2022-12-14 13:51:25 | [pearl_metaworld_ml1_push] epoch #29 | Saving snapshot...
+2022-12-14 13:51:26 | [pearl_metaworld_ml1_push] epoch #29 | Saved
+2022-12-14 13:51:26 | [pearl_metaworld_ml1_push] epoch #29 | Time 24968.05 s
+2022-12-14 13:51:26 | [pearl_metaworld_ml1_push] epoch #29 | EpochTime 976.36 s
+----------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn      28.0717
+MetaTest/Average/AverageReturn                28.0717
+MetaTest/Average/Iteration                    29
+MetaTest/Average/MaxReturn                   106.213
+MetaTest/Average/MinReturn                     7.83623
+MetaTest/Average/NumEpisodes                  50
+MetaTest/Average/StdReturn                    16.6336
+MetaTest/Average/SuccessRate                   0
+MetaTest/Average/TerminationRate               0
+MetaTest/push-v2/AverageDiscountedReturn      28.0717
+MetaTest/push-v2/AverageReturn                28.0717
+MetaTest/push-v2/Iteration                    29
+MetaTest/push-v2/MaxReturn                   106.213
+MetaTest/push-v2/MinReturn                     7.83623
+MetaTest/push-v2/NumEpisodes                  50
+MetaTest/push-v2/StdReturn                    16.6336
+MetaTest/push-v2/SuccessRate                   0
+MetaTest/push-v2/TerminationRate               0
+TotalEnvSteps                             475000
+----------------------------------------  ------------

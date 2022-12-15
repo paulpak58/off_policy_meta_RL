@@ -1,0 +1,13 @@
+{
+  "num_epochs": 30,
+  "num_train_tasks": 50,
+  "encoder_hidden_size": 100,
+  "net_size": 150,
+  "num_steps_per_epoch": 1000,
+  "num_initial_steps": 450,
+  "num_steps_prior": 50,
+  "num_extra_rl_steps_posterior": 50,
+  "batch_size": 64,
+  "embedding_batch_size": 64,
+  "embedding_mini_batch_size": 64
+}
