@@ -23,7 +23,7 @@ from garage.torch.policies import ContextConditionedPolicy
 
 
 class PEARL(MetaRLAlgorithm):
-    r"""A PEARL model based on https://arxiv.org/abs/1903.08254.
+    """A PEARL model based on https://arxiv.org/abs/1903.08254.
     Args:
         env (list[Environment]): batch of sampled environment updates(
             EnvUpdate), which, when invoked on environments, will configure
@@ -168,15 +168,8 @@ class PEARL(MetaRLAlgorithm):
             use_information_bottleneck=use_information_bottleneck,
             use_next_obs=use_next_obs_in_context)
 
-        # buffer for training RL update
-        self._replay_buffers = {
-            i: PathBuffer(replay_buffer_size)
-            for i in range(num_train_tasks)
-        }
-
-        self._context_replay_buffers = {
-            i: PathBuffer(replay_buffer_size)
-            for i in range(num_train_tasks)
+        self._replay_buffers = {i: PathBuffer(replay_buffer_size) for i in range(num_train_tasks)}
+        self._context_replay_buffers = {i: PathBuffer(replay_buffer_size) for i in range(num_train_tasks)
         }
 
         self.target_vf = copy.deepcopy(self._vf)
@@ -219,15 +212,8 @@ class PEARL(MetaRLAlgorithm):
             state (dict): unpickled state.
         """
         self.__dict__.update(state)
-        self._replay_buffers = {
-            i: PathBuffer(self._replay_buffer_size)
-            for i in range(self._num_train_tasks)
-        }
-
-        self._context_replay_buffers = {
-            i: PathBuffer(self._replay_buffer_size)
-            for i in range(self._num_train_tasks)
-        }
+        self._replay_buffers = {i: PathBuffer(self._replay_buffer_size) for i in range(self._num_train_tasks)}
+        self._context_replay_buffers = {i: PathBuffer(self._replay_buffer_size) for i in range(self._num_train_tasks)}
         self._is_resuming = True
 
     def train(self, trainer):

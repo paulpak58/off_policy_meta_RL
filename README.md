@@ -7,11 +7,15 @@ You also need to install the MuJoCo key for MuJoCo131.
 
 Set Library Path to point to both MuJoCo PATHs.
 > export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/paulpak/.mujoco/mujoco200/bin
+> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/paulpak/.mujoco/mjpro131/bin
+> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 
-```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/paulpak/.mujoco/mjpro131/bin
-```
-```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
-```
+Clone random environment parameters referenced in MuJoCo.
+> git clone git@github.com:dennisl88/rand_param_envs.git
 
-```export PYTHONPATH=./rand_param_envs:$PYTHONPATH
-```
+Add to this the Python Path.
+> export PYTHONPATH=./rand_param_envs:$PYTHONPATH
+
+## Dependencies
+Install the rest of the dependencies. May have to clean dependencies cross-platform.
+> conda env create -n meta --f meta.yml
